@@ -1,1 +1,0 @@
-# Using your attendees dict earlier, ask the user for a name and remove that from attendees
