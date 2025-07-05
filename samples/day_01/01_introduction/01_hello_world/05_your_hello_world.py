@@ -1,1 +1,2 @@
-print("Create your own greeting and introduce yourself")
+print("Hello! My name is Jeff")
+print("I am learning Python")
