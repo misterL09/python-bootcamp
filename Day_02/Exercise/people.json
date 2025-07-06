@@ -1,0 +1,14 @@
+[
+    {
+        "Name": "Smartphone",
+        "Info": "Latest model smartphone",
+        "Price": 70000.0,
+        "Stock": 25
+    },
+    {
+        "Name": "Wireless Headphones",
+        "Info": "Noise-canceling headphones",
+        "Price": 10000.0,
+        "Stock": 50
+    }
+]
