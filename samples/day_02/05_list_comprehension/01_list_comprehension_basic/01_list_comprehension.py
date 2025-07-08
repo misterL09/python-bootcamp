@@ -1,9 +1,10 @@
 # Manual
-example_list = []
-for number in range(11):
-    example_list.append(number + 1)
-print(example_list)
+numbers = [90, 100, 20, 10, 0]
+double_numbers = []
+for number in numbers:
+    double_numbers.append(number * 2)
+print(double_numbers)
 
 # List comprehension
-example_list = [number + 1 for number in range(11)]
-print(example_list)
+double_numbers = [number * 2 for number in numbers]
+print(double_numbers)
