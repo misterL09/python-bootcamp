@@ -1,6 +1,6 @@
-age = int(input("Enter age: "))
-
-if age >= 18:
-    print("Old enough to watch movie")
+balance = 150
+price = 200
+if balance >= price:
+    print("Payment successful")
 else:
-    print("Too young to watch movie")
+    print("Insufficient funds")

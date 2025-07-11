@@ -1,18 +1,25 @@
 tasks = []
 
-def create(tasks: list[str], task: str):
+def create(tasks, task):
 	"""Add a new task at the end of the tasks"""
 
-def read(tasks: list[str], index: int) -> str:
+def read(tasks, index) -> str:
 	"""Return the task in the index given"""
 
-def update(tasks: list[str], index: int, new_task: str):
+def update(tasks, index, new_task):
 	"""Change the value in the index to the new task"""
 
-def delete(tasks: list[str], index: int):
+def delete(tasks, index):
 	"""Remove the task in the given index"""
 
-# Test
+"""
+Test code is written below
+
+If the statement on the right of `assert` is True, nothing happens
+If the statement on the left of `assert` is False, it raises an error
+
+So if the code doesn't raise an error, then the functions are implemented well
+"""
 
 create(tasks, "Buy milk")
 create(tasks, "Do homework")
