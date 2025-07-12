@@ -16,8 +16,8 @@ wishlist = [
 for order in wishlist:
     print("Item:")
 
-    for key in order:
-        print(f"\t {key}:", order[key])
+    for key, value in order.items():
+        print(f"\t {key}:", value)
 
     print()
 
