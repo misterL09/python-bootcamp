@@ -1,0 +1,35 @@
+
+pyqt + py2exe
+pyautogui
+
+specialty ni python
+
+
+Programming Principles
+
+repeated data --> variable
+repeated process --> function + loop
+multiple data --> data structures
+connected data + process --> class
+repeated class --> superclass
+repated code --> package
+
+yagni --> fix bear minum. maraming masasayang na oras kapag ginawa yung future na walang kasigaruduhan na mangyayare
+kiss
+
+
+WEBSITE:
+streamlit
+	data science
+	graph
+	simple logic
+fast API
+	easy API
+	built in documentation
+	fast
+Django
+	medium to large application
+Flask
+	lightweight
+
+electron
