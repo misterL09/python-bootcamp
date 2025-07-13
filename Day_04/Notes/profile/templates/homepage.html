@@ -1,0 +1,16 @@
+<div>
+  <h1>SHOPPING</h1>
+</div>
+<ul>
+  {% for item in todos %}
+    <li>
+      <form method="POST" action="/delete/item/" style="display:inline;">
+        <input type="hidden" name="todo" value="{{ item }}">
+<!--        <input type="checkbox"> {{ item }}-->
+         <input type="checkbox" value=True > {{ item }}
+        <button type="submit">delete</button>
+      </form>
+    </li>
+  {% endfor %}
+</ul>
+<!--onChange="this.form.submit()-->

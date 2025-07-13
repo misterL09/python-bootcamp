@@ -17,6 +17,8 @@ tkinter.Label(form_frame, text="Preferred Theme:").grid(row=2, column=0)
 radio1 = tkinter.Radiobutton(form_frame, text="Light", value="Light").grid(row=2, column=1)
 radio2 = tkinter.Radiobutton(form_frame, text="Dark", value="Dark").grid(row=2, column=2)
 
+
+
 check_value = tkinter.BooleanVar()
 checkbox = tkinter.Checkbutton(
 root,
